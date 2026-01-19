@@ -1,6 +1,5 @@
 # ============================================================
 # CoLaS E3: Real-data goodness-of-fit across domains
-# (ROBUST + paper-ready)
 # ------------------------------------------------------------
 # Paper-readiness additions:
 #   (A) OBS point shown on (assort, clustering) scatter + legend
