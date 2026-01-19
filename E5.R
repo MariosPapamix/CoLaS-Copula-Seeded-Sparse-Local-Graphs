@@ -1,10 +1,5 @@
 ## ============================================================
-## E5: Robustness & model-selection sensitivity (SELF-CONTAINED)
-## Includes FIX for calibrate_lambda signature mismatch.
-## Also avoids "double LCC conditioning":
-##   - extract observed LCC once
-##   - set use_lcc=FALSE throughout E5 evaluation
-##
+## E5: Robustness & model-selection sensitivity 
 ## Outputs:
 ##   - observed_edgelist.txt
 ##   - E5_results.csv
