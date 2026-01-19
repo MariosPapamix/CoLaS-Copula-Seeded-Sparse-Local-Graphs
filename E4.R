@@ -1,11 +1,5 @@
 # ============================================================
-# E4: Generalization beyond matched moments (stress test)
-# Self-sufficient + produces tables AND figures (PDF)
-# Revised to:
-#   - avoid union() conflicts via base::union
-#   - remove Unicode dashes (no mbcsToSbcs warnings)
-#   - clean metric names (Tri_RE not Tri_RE.triangles)
-#   - use cairo_pdf() when available
+# E4: Generalization beyond matched moments
 # ============================================================
 
 # ----------------------------
