@@ -1,6 +1,6 @@
 # ============================================================
-# Paper E3 / Script E2.R (REVISED): One-graph recovery of theta
-# Fixed-range CoLaS + finite-moment regime E[W^6] < Inf
+# Paper E3 / Script E2.R: One-graph recovery of theta
+# CoLaS + finite-moment regime E[W^6] < Inf
 #
 # Key paper-alignment changes vs your working E2.R:
 #   (1) Enforce finite moments for W:
