@@ -1,10 +1,6 @@
 # ============================================================
-# Paper E2: Separate knobs / partial-effect matrix  (your E1.R)
-# REVISED: adds CoLaS-HT (tail-inheriting) and runs the "degree tail"
-#          knob (vary F_W via Pareto alpha) in CoLaS-HT as the paper intends.
-#
+# Paper E2: Separate knobs / partial-effect matrix  
 # Default here: run ALL three knobs in CoLaS-HT so tail-index inference is meaningful.
-# (You can switch geo/theta back to "fixed" by editing cfg$regime_geo / cfg$regime_theta.)
 #
 # Outputs (in cfg$out_dir):
 #   figures/
