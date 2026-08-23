@@ -1,0 +1,13 @@
+# Pinned environment used to produce every number in the paper.
+# Python 3.11.15
+numpy==2.4.4
+scipy==1.17.1
+matplotlib==3.10.9
+scikit-learn==1.8.0
+# The exact-rational certificates (colas_certificate_v2.py,
+# colas_certificate_d2.py) use only the standard library
+# (fractions.Fraction, integers); numpy/scipy are needed for the
+# simulations, the city pipeline, and figure generation.
+# LaTeX: TeX Live 2023 (pdfTeX 1.40.25) with bibtex; the
+# bibliography is source/references.bib (plainnat for the main
+# text, plain for the supplement).

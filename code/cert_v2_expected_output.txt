@@ -1,0 +1,16 @@
+Certificate v2: enlarged-region global identification
+B = [1,5] x [5,15] x [0,3/20]  (lambda, eta, psi);  PREC=200, N=40
+--- Stage 0: E-range on [1,5]x[0,3/20] ---
+E in [0.203400401, 0.568049423]   (9500 boxes)
+ell-image of B inside [2.034004, 17.041483]
+--- Stage 1 (G1): injectivity gates ---
+G1 PASS with 32 boxes (32 leaves)
+  C_lambda >= 0.026538  (gate 1/50) ; C_psi >= 0.090890  (gate 1/12)
+  Delta    >= 0.001426  (gate 1/800); den' >= 0.002686  (gate 1/512)
+  compensated slope in [0.005078, 174.896196]
+--- Stage 2 (G2): uniform rank on B ---
+G2 PASS with 14932 boxes (7482 leaves)
+  det DM3 in [-0.226653, -0.016214]  (< -1/64 uniformly)
+  sup ||DM3||_F^2 <= 34.04679
+  certified sigma_min lower bound = 0.010001  (theorem constant 1/100)
+PASS: M3 injective on B (psi=0 included); sigma_min >= 1/100 on B

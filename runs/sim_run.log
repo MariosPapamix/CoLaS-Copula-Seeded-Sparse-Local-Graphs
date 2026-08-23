@@ -1,0 +1,24 @@
+[      5s] A: bank n=1000 B=2000 done; mean=[7.95762 0.47583 0.36279]
+[     43s] A: bank n=10000 B=2000 done; mean=[7.95906 0.47607 0.3789 ]
+[    128s] A: bank n=100000 B=400 done; mean=[7.95367 0.47607 0.38089]
+[    128s] A: n=1000 moment bias = [ 0.001764 -0.000307 -0.018224] ; n*bias = [  1.764  -0.307 -18.224]
+[    128s] A: n=10000 moment bias = [ 3.209e-03 -6.000e-05 -2.114e-03] ; n*bias = [ 32.09   -0.6   -21.138]
+[    128s] A: n=100000 moment bias = [-2.179e-03 -6.100e-05 -1.230e-04] ; n*bias = [-217.919   -6.129  -12.342]
+[    139s] B: n=1000 coverage lam/eta/psi = [0.96  0.948 0.935], bias = [ 0.02934 -0.01625 -0.00797], ok=0.915
+[    147s] B: n=10000 coverage lam/eta/psi = [0.96  0.96  0.968], bias = [ 0.00324 -0.00013  0.00012], ok=1.000
+[    166s] B: n=100000 coverage lam/eta/psi = [0.98 0.97 0.98], bias = [-0.0007   0.00261  0.0005 ], ok=1.000
+[    423s] C: feasible n=1e4 coverage = [0.93 0.94 0.94]
+[    439s] D: null n=1000: P(D=0)=0.639 (theory 0.5), P(D>crit)=0.0375 (nominal 0.05)
+[    471s] D: null n=10000: P(D=0)=0.522 (theory 0.5), P(D>crit)=0.0330 (nominal 0.05)
+[    549s] D: null n=100000: P(D=0)=0.505 (theory 0.5), P(D>crit)=0.0400 (nominal 0.05)
+[    549s] D: I_eff at null = 0.7163
+[    560s] E: power psi=0.0: 0.050
+[    571s] E: power psi=0.005: 0.112
+[    583s] E: power psi=0.01: 0.162
+[    595s] E: power psi=0.02: 0.446
+[    609s] E: power psi=0.04: 0.892
+[    623s] E: power psi=0.0835: 1.000
+[    628s] F: tri: mean theta = [4.1067 6.9345 0.0795]  (true psi_tot=0.0835)
+[    633s] F: bump: mean theta = [3.8415 7.3956 0.0826]  (true psi_tot=0.0835)
+[    639s] F: twoharm: mean theta = [2.9917 9.0145 0.0907]  (true psi_tot=0.0835)
+[    639s] ALL DONE -> sim_results.npz
