@@ -27,7 +27,7 @@ the standard library (`fractions.Fraction`); NumPy/SciPy/scikit-learn
 are needed for the simulations, the city pipeline, and the
 competing-model study.
 
-## Quick start (minutes)
+## Quick start
 
     bash run_experiments.sh
 
@@ -45,7 +45,7 @@ frozen outputs byte for byte:
 and then regenerates the derived-numbers file from the frozen results
 in `runs/`.
 
-## Full reproduction (hours)
+## Full reproduction
 
     bash run_experiments.sh --full
 
